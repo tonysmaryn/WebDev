@@ -1,0 +1,379 @@
+* {
+  margin: 0 auto;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+  font-family: "Roboto", sans-serif;
+  align-content: center;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+.top-wrapper {
+  background-image: url(assets/bg-image.png);
+  height: 744px;
+  padding: calc(50% - 800px);
+}
+header {
+  height: 95px;
+}
+.header-navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 516px 25px 502px;
+}
+
+.header-navbar li {
+  text-align: center;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.8;
+}
+a:hover,
+.active {
+  text-decoration: underline;
+  font-weight: 500;
+  opacity: 1;
+}
+.logo {
+  margin: 0 15px;
+}
+
+.your-life {
+  padding-top: 135px;
+}
+
+.your-life-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.your-life-text {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 504px;
+  padding-top: 20px;
+  line-height: 140%;
+}
+.get-started {
+  margin-left: 708px;
+  margin-top: 30px;
+}
+.simply-button {
+  color: #fff;
+  background: #00afdb;
+  width: 184px;
+  height: 46px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Roboto";
+  border: none;
+}
+.simply-button:hover {
+  background: #009cc2;
+  cursor: pointer;
+}
+
+.social {
+  width: 170px;
+  margin-left: 715px;
+  margin-top: 183px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.social a {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+}
+
+.social a:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.rappresent {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 269px 140px 269px;
+  margin: 0 auto;
+}
+
+.rappresent-text {
+  width: 407px;
+  height: 233px;
+  margin: 0;
+  padding-top: 175px;
+}
+.rappresent-img {
+  margin-top: 120px;
+  margin: 0;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.community {
+  display: flex;
+  padding-left: 269px;
+  height: 504px;
+  background-color: #f5f6f7;
+}
+
+.community-text {
+  width: 298px;
+  height: 175px;
+  margin-left: 0;
+  margin-top: 155px;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-slider {
+  width: 895px;
+  margin-right: 0;
+}
+
+.community-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  padding-top: 20px;
+}
+
+.user-card {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.community-slider-nav {
+  margin-right: 269px;
+  font-size: 18px;
+  color: #373737;
+  text-align: right;
+  padding-top: 76px;
+}
+.arrows {
+  border: none;
+  background: none;
+}
+.arrows:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.community-slider-img {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+}
+
+.community-slider-img img {
+  margin-right: 30px;
+}
+
+.implement {
+  display: flex;
+  justify-content: space-between;
+  padding: 117px 378px 140px 269px;
+  margin: 0 auto;
+}
+
+.implement-text {
+  width: 407px;
+  height: 184px;
+  margin: 0;
+  padding-top: 199px;
+}
+.subscribe {
+  height: 524px;
+  background: url("assets/pexels-christina-morillo-1181675\ 1.png");
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 197px;
+}
+.email-button {
+  width: 66px;
+  height: 46px;
+  background-color: #00afdb;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 30px;
+}
+
+.email-button:hover {
+  background: #009cc2;
+  cursor: pointer;
+}
+
+input {
+  width: 320px;
+  height: 46px;
+  background-color: #ffffff;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+  margin-top: 30px;
+  padding: 0 0 0 20px;
+}
+form {
+  display: flex;
+}
+.download {
+  background-color: #f5f6f7;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+}
+
+.download h2 {
+  margin-top: 116px;
+}
+
+.download p {
+  width: 480px;
+  text-align: center;
+}
+.app-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 402px;
+}
+
+.app-buttons button {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.simply-button .btext {
+  width: 127px;
+  padding: 15px 1px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.simply-button .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  padding: 0;
+  background: #009cc2;
+  height: 46px;
+}
+
+.download .icon {
+  transition: all 0.5s;
+}
+
+.download .icon img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+footer {
+    height: 185px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright {
+    color: #818181;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 111px;
+    padding-bottom: 27px;
+}
+
+.nav-bottom {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 0;
+
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 27px;
+}
+
+.nav-bottom ul li {
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0.98;
+    color: #ffffff;
+}
+
+.divisor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4e4e4e;
+}
+
+.bottom-logo {
+    margin-left: 352px;
+    padding-bottom: 27px;
+}
+
